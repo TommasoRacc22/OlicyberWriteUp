@@ -8,6 +8,8 @@ InOut.recvuntil(b'... Invia un qualsiasi carattere per iniziare ...')
 InOut.sendline(b'a')
 
 for _ in range(20):
+
+    
     InOut.recvuntil(b'-> ')
     funcName = InOut.recvuntil(b': ')
     funcName = funcName[:-2]

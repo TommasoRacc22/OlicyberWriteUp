@@ -2,8 +2,6 @@ import zipfile
 import os
 import glob
 
-#Inserire il file in questa cartella e poi eseguire
-
 def unzip_all():
     contatore = 0
     i = 3000
