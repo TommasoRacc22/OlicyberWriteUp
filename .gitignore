@@ -1,0 +1,8 @@
+# Ambienti virtuali
+.venv/
+**/.venv/
+__pycache__/
+*.pyc
+
+# Wordlist pesanti
+**/rockyou.txt
